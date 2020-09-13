@@ -5,13 +5,15 @@ body {
   display: inline-block;
   /* position: fixed right; not working*/
 }
+/* try min-width: 300 unless problems with portfolio  */
 #container2 {
-  min-width: 360px;
+  min-width: 300px;
   width: 60%;
   max-height: 1000px;
   margin: 50px;
   background-color: white;
   padding: 40px;
+  display: contents center;
 }
 
 h1 {
