@@ -3,17 +3,53 @@ body {
 }
 .nav-item {
   display: inline-block;
-  position: fixed right;
+  /* position: fixed right; not working*/
 }
-.container {
+#container2 {
   min-width: 360px;
   width: 60%;
   max-height: 1000px;
-  margin: 60px 0px 30px 20px;
-  padding: 20px;
-  background-color: rgb(165, 172, 172);
+  margin: 50px;
+  background-color: white;
+  padding: 40px;
 }
 
 h1 {
   font-size: xx-large;
+}
+#profile-pic {
+  float: left;
+  width: 200px;
+  margin: 0 20px 10px 0;
+}
+
+.navbar-brand {
+  margin-left: 22px;
+}
+
+.form-control {
+  /* width: 80%; not working */
+}
+
+.about-me {
+  /* display: ; */
+  /* position: relative; */
+  /* margin: 0, 5px, 5px, 0; */
+}
+/* going to try 3 ways to wrap this image with text*/
+/* try the entire row?
+or try the image element
+or go for the paragraph element */
+
+/* the whole row 
+left: 50px is pushing the container left?*/
+.row-2 {
+  /* position: relative; */
+  /* left: 50px; */
+  /* /padding: 10px; */
+}
+
+.aboutme-p {
+  /* position: relative; */
+  /* float: right; */
 }
