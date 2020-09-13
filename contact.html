@@ -10,8 +10,8 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
-    <!-- <link rel="stylesheet" href="reset.css" /> -->
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -29,7 +29,8 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+       <!-- fixing navbar -->
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item active" id="nav-item">
             <a class="nav-link" href="./index.html"
               >Home <span class="sr-only">(current)</span></a
@@ -44,31 +45,84 @@
         </ul>
       </div>
     </nav>
-
-    <main class="container">
-      <form class="row">
-        <form class="col-sm-12">
-          <h1>Contact</h1>
-        </form>
-      </form>
-      <br />
-      <form class="row">
-        <form class="col-sm-12">
-          <form>
+    <main class="container" id="container2">
+      <!-- adding css classes to match -->
+      <!-- <form class="row"> -->
+        <!-- <form class="col-md-8"> -->
+          <!-- <form class="block"> -->
+            <h1>Contact</h1>
+            <hr />
+            <br>
+            <!-- <form class="block"> -->
+            <form class="form-group">
+                <label for="formGroupExampleInput">Name</label>
+                <input
+                 type="text"
+                 class="form-control"
+                 id="formGroupExampleInput"
+                 placeholder="Name"
+              />
+            </form>
+          <!-- </form> -->
+        <!-- </form> -->
+      <!-- </form> -->
+            <br>
             <div class="form-group">
-              <label for="formGroupExampleInput">Name</label>
+              <label for="formGroupExampleInput2">email</label>
               <input
                 type="text"
                 class="form-control"
-                id="formGroupExampleInput"
-                placeholder="Name"
+                id="formGroupExampleInput2"
+                placeholder="email"
               />
             </div>
-          </form>
+            <br>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">message</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="message"
+                rows="3"
+              ></textarea>
+            </div>
+            <br>
+            <button class="btn btn-primary" type="submit">Submit form</button>
+        </form>
+      </form>
+    </main>
+
+
+
+
+
+
+
+
+
+        </form>
+      </form>
+
+
+
+      <!--<br />
+      <form class="row">
+        <form class="col-md-8">
+          <form class="block">
+            <div class="form-group">
+              <label for="formGroupExampleInput">Name</label>
+              <input
+               type="text"
+               class="form-control"
+               id="formGroupExampleInput"
+               placeholder="Name"
+            />
+          </div>
+        </form>
         </form>
       </form>
       <form class="row">
-        <form class="col-sm-12">
+        <form class="col-md-12">
           <form>
             <div class="form-group">
               <label for="formGroupExampleInput2">email</label>
@@ -83,12 +137,13 @@
         </form>
       </form>
       <form class="row">
-        <form class="col-sm-12">
+        <form class="col-md-12">
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <label for="exampleFormControlTextarea1">message</label>
             <textarea
               class="form-control"
               id="exampleFormControlTextarea1"
+              placeholder="message"
               rows="3"
             ></textarea>
           </div>
@@ -96,11 +151,11 @@
       </form>
 
       <form class="row">
-        <form class="col-sm-6">
+        <form class="col-md-6">
           <button class="btn btn-primary" type="submit">Submit form</button>
         </form>
       </form>
-    </main>
+    </main>-->
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
