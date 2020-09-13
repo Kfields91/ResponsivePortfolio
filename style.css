@@ -21,12 +21,13 @@ h1 {
 }
 #profile-pic {
   float: left;
-  width: 200px;
+  width: 150px;
   margin: 0 20px 10px 0;
 }
 
 .navbar-brand {
-  margin-left: 22px;
+  /* margin-left: 22px; */
+  margin: auto-0;
 }
 
 .form-control {
