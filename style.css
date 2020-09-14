@@ -1,33 +1,61 @@
 body {
   background-color: lightgrey;
+  min-height: 100%;
+  padding-bottom: 80px;
+  position: relative;
+
+}
+
+html {
+  height: 100%;
 }
 .nav-item {
   display: inline-block;
   /* position: fixed right; not working*/
 }
 /* try min-width: 300 unless problems with portfolio  */
-#container2 {
-  min-width: 300px;
-  width: 60%;
-  max-height: 1000px;
-  margin: 50px;
-  background-color: white;
-  padding: 40px;
-  display: contents center;
+.container { 
+ /* min-width: 300px;
+ width: 60%;
+  max-height: 100%;
+  /* margin: 50px; */
+  /* background-color: white; */
+  /* padding: 40px;
+  display: contents center;  */
+   margin-top: 100px; 
+  margin-bottom: 50px;
+}
+main {
 }
 
 h1 {
   font-size: xx-large;
 }
 #profile-pic {
-  float: left;
+  /* float: left; */
   width: 150px;
-  margin: 0 20px 10px 0;
+  /* margin: 0 20px 10px 0; */
 }
 
-.navbar-brand {
-  /* margin-left: 22px; */
-  margin: auto-0;
+#navbar-brand {
+  margin-left: 10px;
+  /* margin: auto-0; */
+  background-color: #4aaaa5;
+  padding: 10px;
+  color: white;
+}
+
+.footer {
+  text-align:center;
+  padding: 20px;
+  background-color: #666666;
+  border-top: #4aaaa5;
+  border-top-width: 5px;
+  border-top-style: solid;
+  color: #777;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 .form-control {

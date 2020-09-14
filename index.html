@@ -15,8 +15,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <!-- <div class="container"> -->
-      <a class="navbar-brand" href="#">Kelsea Fields</a>
+      <div class="navbar-brand" id="navbar-brand">Kelsea Fields</div>
       <button
         class="navbar-toggler"
         type="button"
@@ -47,38 +46,45 @@
       <!-- </div> -->
     </nav>
     <!--planning rows and columns possibly 3= about me, pic and text, bottom text -->
-    <main class="container" id="container2">
+    <main class="container">
+      <!--id="container2"-->
       <!-- <div class="col-md-2"></div> -->
       <section class="row">
-        <div class="col-md-9">
-          <article class="block">
-            <h1>About me</h1>
+        <div class="col-md-8 ml-1">
+          <div class="card">
+            <div class="card-body">
+              <article class="block">
+              <h1>About me</h1>
             <hr />
             <img
-              id="profile-pic"
+              class="float-left"
               src="./assets/20200124_082357 (resize).jpg"
               alt="self portrait"
+              style="margin-right: 10px;"
             />
             <p class="aboutme-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
               perferendis harum consequuntur fugiat nobis illo quia odio libero
               modi nemo dolor nesciunt explicabo, at officiis, dignissimos
-              veritatis ex, officia mollitia!
+              veritatis ex, officia mollitia!In praesentium, non voluptatum nemo ab possimus odio,
+              quam eum, quisquam dolorum delectus iusto quos.
             </p>
             <br />
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Repellendus, laborum consectetur soluta exercitationem saepe
-              repudiandae! In praesentium, non voluptatum nemo ab possimus odio,
-              quam eum, quisquam dolorum delectus iusto quos.
+              repudiandae! 
             </p>
-          </article>
+            </article>
+            </div>
+          </div>
         </div>
       </section>
       <!-- 1. find appropriate pics and most likely reformat
       2. add lorem to test. 
       3. -->
     </main>
+    <footer class="footer">&copy; Copyright: Kelsea Fields 2020</footer>
 
     <script>
       src = "https://code.jquery.com/jquery-3.5.1.slim.min.js";
