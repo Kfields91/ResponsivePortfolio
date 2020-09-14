@@ -18,15 +18,25 @@ html {
 }
 /* try min-width: 300 unless problems with portfolio  */
 .container {
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 50px;
 }
 
-main {
+.card {
+  border-radius: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button.btn.btn-primary {
+  border-radius: 0;
+  background-color: #4aaaa5;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
   font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
   color: #4aaaa5;
 }
 #profile-pic {
@@ -37,10 +47,11 @@ h1 {
 
 #navbar-brand {
   margin-left: 10px;
-  /* margin: auto-0; */
   background-color: #4aaaa5;
-  padding: 10px;
+  padding: 10px, 0 100px, 0;
   color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
 }
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
@@ -67,6 +78,7 @@ h1 {
 
 p {
   line-height: 1.5em;
+  font-weight: 500;
 }
 
 .form-control {
