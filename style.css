@@ -27,6 +27,7 @@ main {
 
 h1 {
   font-size: xx-large;
+  color: #4aaaa5;
 }
 #profile-pic {
   /* float: left; */
@@ -40,6 +41,15 @@ h1 {
   background-color: #4aaaa5;
   padding: 10px;
   color: white;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #cccccc;
+}
+#nav-links.nav-link:hover {
+  color: #343434;
 }
 
 .footer {
