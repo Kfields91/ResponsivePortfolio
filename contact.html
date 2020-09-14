@@ -29,7 +29,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-       <!-- fixing navbar -->
+        <!-- fixing navbar -->
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item active" id="nav-item">
             <a class="nav-link" href="./index.html"
@@ -46,48 +46,55 @@
       </div>
     </nav>
     <main class="container">
-      <div class="row"></div>
-      <div class="col-md-8"></div>
-      <!-- adding css classes to match -->
-            <h1>Contact</h1>
-            <hr />
-            <br>
-            <!-- <form class="block"> -->
-            <form class="form-group">
-                <label for="formGroupExampleInput">Name</label>
-                <input
-                 type="text"
-                 class="form-control"
-                 id="formGroupExampleInput"
-                 placeholder="Name"
-              />
-            </form>
-            <br>
-            <div class="form-group">
-              <label for="formGroupExampleInput2">email</label>
-              <input
-                type="text"
-                class="form-control"
-                id="formGroupExampleInput2"
-                placeholder="email"
-              />
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-body">
+              <!-- adding css classes to match -->
+              <h1>Contact</h1>
+              <hr />
+              <form class="col-md-9">
+                <!-- <form class="block"> -->
+                <div class="form-group">
+                  <label for="formGroupExampleInput">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="formGroupExampleInput"
+                    placeholder="Name"
+                  />
+                </div>
+                <br />
+                <div class="form-group">
+                  <label for="formGroupExampleInput2">email</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="formGroupExampleInput2"
+                    placeholder="email"
+                  />
+                </div>
+                <br />
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">message</label>
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="message"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <br />
+                <button class="btn btn-primary" type="submit">
+                  Submit form
+                </button>
+              </form>
             </div>
-            <br>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">message</label>
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                placeholder="message"
-                rows="3"
-              ></textarea>
-            </div>
-            <br>
-            <button class="btn btn-primary" type="submit">Submit form</button>
-        </form>
-      </form>
-      </main>
-      <footer class="footer">&copy; Copyright: Kelsea Fields 2020</footer>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">&copy; Copyright: Kelsea Fields 2020</footer>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
