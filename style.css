@@ -14,9 +14,7 @@ html {
 }
 .nav-item {
   display: inline-block;
-  /* position: fixed right; not working*/
 }
-/* try min-width: 300 unless problems with portfolio  */
 .container {
   margin-top: 80px;
   margin-bottom: 50px;
@@ -35,14 +33,12 @@ button.btn.btn-primary {
 
 h1 {
   font-size: xx-large;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 900;
   color: #4aaaa5;
 }
 #profile-pic {
-  /* float: left; */
   width: 150px;
-  /* margin: 0 20px 10px 0; */
 }
 
 #navbar-brand {
@@ -59,7 +55,13 @@ h1 {
 .navbar-light .navbar-nav .show > .nav-link {
   color: #cccccc;
 }
-#nav-links.nav-link:hover {
+#nav-link1.nav-link:hover {
+  color: #343434;
+}
+#nav-link2.nav-link:hover {
+  color: #343434;
+}
+#nav-link3.nav-link:hover {
   color: #343434;
 }
 
@@ -79,31 +81,4 @@ h1 {
 p {
   line-height: 1.5em;
   font-weight: 500;
-}
-
-.form-control {
-  /* width: 80%; not working */
-}
-
-.about-me {
-  /* display: ; */
-  /* position: relative; */
-  /* margin: 0, 5px, 5px, 0; */
-}
-/* going to try 3 ways to wrap this image with text*/
-/* try the entire row?
-or try the image element
-or go for the paragraph element */
-
-/* the whole row 
-left: 50px is pushing the container left?*/
-.row-2 {
-  /* position: relative; */
-  /* left: 50px; */
-  /* /padding: 10px; */
-}
-
-.aboutme-p {
-  /* position: relative; */
-  /* float: right; */
 }
