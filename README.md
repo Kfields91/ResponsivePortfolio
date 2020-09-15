@@ -31,9 +31,10 @@ In addition to these pages I also used CSS styling sheets
 
 - style.css
 - reset.css
+  If you're interested in where I found my reset [click here!](http://meyerweb.com/eric/tools/css/reset/)
 
-If you're interested in where I found my reset [click here!](http://meyerweb.com/eric/tools/css/reset/)
-***
+---
+
 #Finished Product
 [Responsive Portfolio](https://kfields91.github.io/ResponsivePortfolio/)
 
