@@ -1,8 +1,11 @@
 body {
-  background-color: lightgrey;
   min-height: 100%;
   padding-bottom: 80px;
   position: relative;
+  background-image: url("../Images/picture.webp");
+  background-repeat: no-repeat;
+  background-color: #2f4139;
+  background-size: cover;
 }
 .form-control {
   border-radius: 0;
@@ -27,7 +30,7 @@ html {
 
 button.btn.btn-primary {
   border-radius: 0;
-  background-color: #4aaaa5;
+  background-color: #208a6f;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -35,12 +38,12 @@ h1 {
   font-size: xx-large;
   font-family: "Times New Roman", Times, serif;
   font-weight: 900;
-  color: #4aaaa5;
+  color: #44775e;
 }
 
 #navbar-brand {
   margin-left: 10px;
-  background-color: #4aaaa5;
+  background-color: #44775e;
   padding: 10px, 0 100px, 0;
   color: white;
   font-family: "Times New Roman", Times, serif;
@@ -50,23 +53,23 @@ h1 {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-  color: #cccccc;
+  color: #ff8800;
 }
 #nav-link1.nav-link:hover {
-  color: #343434;
+  color: #2b4e3e;
 }
 #nav-link2.nav-link:hover {
-  color: #343434;
+  color: #2b4e3e;
 }
 #nav-link3.nav-link:hover {
-  color: #343434;
+  color: #2b4e3e;
 }
 
 .footer {
   text-align: center;
   padding: 20px;
-  background-color: #666666;
-  border-top: #4aaaa5;
+  background-color: #3f0000;
+  border-top: #0f946c;
   border-top-width: 5px;
   border-top-style: solid;
   color: #777;
