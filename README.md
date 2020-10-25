@@ -1,12 +1,12 @@
+![2020-09-14 (2)](https://user-images.githubusercontent.com/68616301/97096796-0e55bb80-1626-11eb-8310-b2160ff93410.png)
 # Responsive Portfolio
-
 ---
 
 ### About Project
 
 The purpose of this project was to create a mobile responsive portfolio using Bootstrap; The portfolio being required to respond to three different screen sizes: small 400, medium 768, and large 992 widths.
 
-###Task
+### Task
 create three html pages:
 
 - index.html
@@ -35,7 +35,7 @@ In addition to these pages I also used CSS styling sheets
 
 ---
 
-#Finished Product
+### Finished Product
 [Responsive Portfolio](https://kfields91.github.io/ResponsivePortfolio/)
 
 &
@@ -44,13 +44,13 @@ In addition to these pages I also used CSS styling sheets
 
 ---
 
-###Built
+### Built
 
 - using Bootstrap
 
-###license
+### license
 [Copy of Bootstrap license](https://github.com/twbs/bootstrap/blob/v4.0.0/LICENSE)
 
-###Contact Info
+### Contact Info
 
 find my work on [Github](https://github.com/Kfields91)!
