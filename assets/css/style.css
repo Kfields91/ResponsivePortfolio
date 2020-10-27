@@ -86,3 +86,6 @@ p {
 h2.index-page {
   font-size: x-large;
 }
+a .img-fluid:hover {
+  border: lightslategray;
+}
