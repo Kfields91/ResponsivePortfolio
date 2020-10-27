@@ -57,12 +57,15 @@
               <!-- adding css classes to match -->
               <h1>Contact</h1>
               <hr />
-              <form class="col-md-9">
+              <form class="col-md-9"
+                action="https://formspree.io/f/mrgoqnao"
+                method="POST">
                 <!-- <form class="block"> -->
                 <div class="form-group">
                   <label for="formGroupExampleInput">Name</label>
                   <input
-                    type="text"
+                  name="name"
+                    type="text" 
                     class="form-control"
                     id="formGroupExampleInput"
                     placeholder="Name"
@@ -72,6 +75,7 @@
                 <div class="form-group">
                   <label for="formGroupExampleInput2">Email</label>
                   <input
+                    name="_replyto"
                     type="text"
                     class="form-control"
                     id="formGroupExampleInput2"
@@ -82,6 +86,7 @@
                 <div class="form-group">
                   <label for="exampleFormControlTextarea1">Message</label>
                   <textarea
+                    name="message"
                     class="form-control"
                     id="exampleFormControlTextarea1"
                     placeholder="Message"
@@ -112,5 +117,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <script src="main.js"></script>
   </body>
 </html>
