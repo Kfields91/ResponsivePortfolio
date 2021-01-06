@@ -1,20 +1,40 @@
 body {
-  min-height: 100%;
-  padding-bottom: 80px;
+  height: 100%;
   position: relative;
-  background-image: url("../Images/picture.webp");
-  background-repeat: no-repeat;
-  background-color: #2f4139;
-  background-size: cover;
+  font-family: 'Barlow';font-size: 22px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a4d8e4+0,1f6193+100 */
+
+  background: -moz-linear-gradient(
+      top,
+      rgba(164, 216, 228, 1) 0%,
+      rgba(31, 97, 147, 1) 100%
+    )
+    no-repeat; /* FF3.6-15 */
+
+  background: -webkit-linear-gradient(
+      top,
+      rgba(164, 216, 228, 1) 0%,
+      rgba(31, 97, 147, 1) 100%
+    )
+    no-repeat; /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(
+      to bottom,
+      rgba(164, 216, 228, 1) 0%,
+      rgba(31, 97, 147, 1) 100%
+    )
+    no-repeat;
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4d8e4', endColorstr='#1f6193',GradientType=0 ); IE6-9 */
 }
 .form-control {
   border-radius: 0;
   margin-top: 3px;
 }
 
-html {
+/* html {
   height: 100%;
-}
+} */
 .nav-item {
   display: inline-block;
 }
@@ -25,29 +45,25 @@ html {
 
 .card {
   border-radius: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.836);
 }
 
 button.btn.btn-primary {
   border-radius: 0;
-  background-color: #208a6f;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #365b7b;
 }
 
 h1 {
   font-size: xx-large;
-  font-family: "Times New Roman", Times, serif;
   font-weight: 900;
-  color: #44775e;
+  color: #3f78ab
 }
 
 #navbar-brand {
   margin-left: 10px;
-  background-color: #44775e;
+  background-color: #64686f;
   padding: 10px, 0 100px, 0;
   color: white;
-  font-family: "Times New Roman", Times, serif;
   font-weight: 900;
 }
 .navbar-light .navbar-nav .active > .nav-link,
@@ -69,12 +85,12 @@ h1 {
 .footer {
   text-align: center;
   padding: 20px;
-  background-color: #3f0000;
-  border-top: #0f946c;
+  background-color: #222227;
+  border-top: #28287d;
   border-top-width: 5px;
   border-top-style: solid;
   color: #777;
-  position: absolute;
+  position: relative;
   width: 100%;
   bottom: 0;
 }
