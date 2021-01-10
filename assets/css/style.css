@@ -1,7 +1,8 @@
 body {
   height: 100%;
   position: relative;
-  font-family: 'Barlow';font-size: 22px;
+  font-family: "Barlow";
+  font-size: 22px;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a4d8e4+0,1f6193+100 */
 
   background: -moz-linear-gradient(
@@ -56,7 +57,7 @@ button.btn.btn-primary {
 h1 {
   font-size: xx-large;
   font-weight: 900;
-  color: #3f78ab
+  color: #3f78ab;
 }
 
 #navbar-brand {
@@ -104,4 +105,18 @@ h2.index-page {
 }
 a .img-fluid:hover {
   border: lightslategray;
+}
+
+/* div.col-sm-12.col-md-10.col-lg.mb-4 {
+  font-size: initial;
+} */
+
+div.row {
+  font-size: initial;
+}
+
+h4.title {
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
 }
