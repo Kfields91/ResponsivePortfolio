@@ -1,5 +1,4 @@
-![Capture](https://user-images.githubusercontent.com/68616301/97329756-a45f3100-1834-11eb-8c3f-8f2764f05828.PNG)
-Finished [Index](https://kfields91.github.io/ResponsivePortfolio/index.html) page
+![ResponsivePortfolioUpdate2-resize](https://user-images.githubusercontent.com/68616301/104112011-0bba4800-529e-11eb-8192-84c48729dee1.gif)
 
 # Responsive Portfolio
 
@@ -38,13 +37,6 @@ In addition to these pages I also used CSS styling sheets
   If you're interested in where I found my reset [click here!](http://meyerweb.com/eric/tools/css/reset/)
 
 ---
-
-### Product Image
-
-[Contact page:](https://kfields91.github.io/ResponsivePortfolio/contact.html)
-![rpcontactspg](https://user-images.githubusercontent.com/68616301/97331457-a3c79a00-1836-11eb-9173-9505276c0317.PNG)
-[Portfolio Page:](https://kfields91.github.io/ResponsivePortfolio/portfolio.html)
-![rpportfoliopg](https://user-images.githubusercontent.com/68616301/97331670-de313700-1836-11eb-9348-a3387a5fa918.PNG)
 
 ### Finished Product
 
