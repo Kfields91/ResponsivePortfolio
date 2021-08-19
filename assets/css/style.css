@@ -3,28 +3,29 @@ body {
   position: relative;
   font-family: "Barlow";
   font-size: 22px;
+  background-color: #9fcaa2;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a4d8e4+0,1f6193+100 */
 
-  background: -moz-linear-gradient(
+  /* background: -moz-linear-gradient(
       top,
       rgba(164, 216, 228, 1) 0%,
       rgba(31, 97, 147, 1) 100%
     )
     no-repeat; /* FF3.6-15 */
-
+  /* 
   background: -webkit-linear-gradient(
       top,
       rgba(164, 216, 228, 1) 0%,
       rgba(31, 97, 147, 1) 100%
     )
-    no-repeat; /* Chrome10-25,Safari5.1-6 */
+    no-repeat; Chrome10-25,Safari5.1-6 */
 
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       rgba(164, 216, 228, 1) 0%,
       rgba(31, 97, 147, 1) 100%
     )
-    no-repeat;
+    no-repeat; */
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4d8e4', endColorstr='#1f6193',GradientType=0 ); IE6-9 */
 }
@@ -51,46 +52,48 @@ body {
 
 button.btn.btn-primary {
   border-radius: 0;
-  background-color: #365b7b;
+  background-color: #6ba9b4;
 }
 
 h1 {
   font-size: xx-large;
   font-weight: 900;
-  color: #3f78ab;
+  color: #6ba9b4;
 }
 
 #navbar-brand {
   margin-left: 10px;
-  background-color: #64686f;
+  /* background-color: #64686f; */
   padding: 10px, 0 100px, 0;
-  color: white;
+  /* color: white; */
   font-weight: 900;
+  color: #bf77ab;
+  font-size: x-large;
 }
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-  color: #ff8800;
+  color: #f3d58c;
 }
 #nav-link1.nav-link:hover {
-  color: #2b4e3e;
+  color: #bf77ab;
 }
 #nav-link2.nav-link:hover {
-  color: #2b4e3e;
+  color: #bf77ab;
 }
 #nav-link3.nav-link:hover {
-  color: #2b4e3e;
+  color: #bf77ab;
 }
 
 .footer {
   text-align: center;
   padding: 20px;
-  background-color: #222227;
-  border-top: #28287d;
+  background-color: #6ba9b4;
+  /* border-top: #28287d; */
   border-top-width: 5px;
   border-top-style: solid;
-  color: #777;
+  color: #f3d58c;
   position: relative;
   width: 100%;
   bottom: 0;
