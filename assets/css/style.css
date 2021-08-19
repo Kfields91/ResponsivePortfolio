@@ -4,30 +4,6 @@ body {
   font-family: "Barlow";
   font-size: 22px;
   background-color: #9fcaa2;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a4d8e4+0,1f6193+100 */
-
-  /* background: -moz-linear-gradient(
-      top,
-      rgba(164, 216, 228, 1) 0%,
-      rgba(31, 97, 147, 1) 100%
-    )
-    no-repeat; /* FF3.6-15 */
-  /* 
-  background: -webkit-linear-gradient(
-      top,
-      rgba(164, 216, 228, 1) 0%,
-      rgba(31, 97, 147, 1) 100%
-    )
-    no-repeat; Chrome10-25,Safari5.1-6 */
-
-  /* background: linear-gradient(
-      to bottom,
-      rgba(164, 216, 228, 1) 0%,
-      rgba(31, 97, 147, 1) 100%
-    )
-    no-repeat; */
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4d8e4', endColorstr='#1f6193',GradientType=0 ); IE6-9 */
 }
 .form-control {
   border-radius: 0;
